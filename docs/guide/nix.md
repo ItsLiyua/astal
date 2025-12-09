@@ -56,7 +56,7 @@ In which case you can omit `installPhase` and just include meson in
 ```nix
 {
   nativeBuildInputs = [
-    pkgs.wrapGAppsHook
+    pkgs.wrapGAppsHook3
     pkgs.gobject-introspection
     pkgs.esbuild
     pkgs.meson
@@ -93,7 +93,7 @@ In which case you can omit `installPhase` and just include meson in
       src = ./.;
 
       nativeBuildInputs = [
-        pkgs.wrapGAppsHook
+        pkgs.wrapGAppsHook3
         pkgs.gobject-introspection
         pkgs.esbuild
       ];
